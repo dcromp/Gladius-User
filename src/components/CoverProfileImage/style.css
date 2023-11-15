@@ -1,0 +1,33 @@
+.cover-profile-image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 375px;
+}
+
+.cover-profile-image .image-placeholder {
+  align-self: stretch;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.cover-profile-image .profile-image {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-top: -70px;
+  position: relative;
+  width: 375px;
+}
+
+.cover-profile-image .avatar {
+  flex: 0 0 auto;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  position: relative;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,1 @@
+export { CoverProfileImage } from "./CoverProfileImage";

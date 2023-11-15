@@ -1,0 +1,523 @@
+:root {
+  --background-secondary: #3b3b3b;
+  --base-body-space-mono-font-family: "SpaceMono-Regular", Helvetica;
+  --base-body-space-mono-font-size: 16px;
+  --base-body-space-mono-font-style: normal;
+  --base-body-space-mono-font-weight: 400;
+  --base-body-space-mono-letter-spacing: 0px;
+  --base-body-space-mono-line-height: 140.0%;
+  --base-body-work-sans-font-family: "WorkSans-Regular", Helvetica;
+  --base-body-work-sans-font-size: 16px;
+  --base-body-work-sans-font-style: normal;
+  --base-body-work-sans-font-weight: 400;
+  --base-body-work-sans-letter-spacing: 0px;
+  --base-body-work-sans-line-height: 140.0%;
+  --blue-accent: #377df7;
+  --body-text-work-sans-font-family: "WorkSans-Regular", Helvetica;
+  --body-text-work-sans-font-size: 22px;
+  --body-text-work-sans-font-style: normal;
+  --body-text-work-sans-font-weight: 400;
+  --body-text-work-sans-letter-spacing: 0px;
+  --body-text-work-sans-line-height: 160.0%;
+  --button-text-font-family: "WorkSans-SemiBold", Helvetica;
+  --button-text-font-size: 16px;
+  --button-text-font-style: normal;
+  --button-text-font-weight: 600;
+  --button-text-letter-spacing: 1.6px;
+  --button-text-line-height: 16px;
+  --call-to-action: #a259ff;
+  --caption-label-text: #858584;
+  --caption-space-mono-font-family: "SpaceMono-Regular", Helvetica;
+  --caption-space-mono-font-size: 12px;
+  --caption-space-mono-font-style: normal;
+  --caption-space-mono-font-weight: 400;
+  --caption-space-mono-letter-spacing: 0px;
+  --caption-space-mono-line-height: 110.0%;
+  --caption-work-sans-font-family: "WorkSans-Regular", Helvetica;
+  --caption-work-sans-font-size: 12px;
+  --caption-work-sans-font-style: normal;
+  --caption-work-sans-font-weight: 400;
+  --caption-work-sans-letter-spacing: 0px;
+  --caption-work-sans-line-height: 110.0%;
+  --h1-space-mono-font-family: "SpaceMono-Bold", Helvetica;
+  --h1-space-mono-font-size: 67px;
+  --h1-space-mono-font-style: normal;
+  --h1-space-mono-font-weight: 700;
+  --h1-space-mono-letter-spacing: 0px;
+  --h1-space-mono-line-height: 110.0%;
+  --h1-work-sans-font-family: "WorkSans-SemiBold", Helvetica;
+  --h1-work-sans-font-size: 67px;
+  --h1-work-sans-font-style: normal;
+  --h1-work-sans-font-weight: 600;
+  --h1-work-sans-letter-spacing: 0px;
+  --h1-work-sans-line-height: 110.0%;
+  --h2-space-mono-font-family: "SpaceMono-Bold", Helvetica;
+  --h2-space-mono-font-size: 51px;
+  --h2-space-mono-font-style: normal;
+  --h2-space-mono-font-weight: 700;
+  --h2-space-mono-letter-spacing: 0px;
+  --h2-space-mono-line-height: 110.0%;
+  --h2-work-sans-font-family: "WorkSans-SemiBold", Helvetica;
+  --h2-work-sans-font-size: 51px;
+  --h2-work-sans-font-style: normal;
+  --h2-work-sans-font-weight: 600;
+  --h2-work-sans-letter-spacing: 0px;
+  --h2-work-sans-line-height: 110.0%;
+  --h3-space-mono-font-family: "SpaceMono-Bold", Helvetica;
+  --h3-space-mono-font-size: 38px;
+  --h3-space-mono-font-style: normal;
+  --h3-space-mono-font-weight: 700;
+  --h3-space-mono-letter-spacing: 0px;
+  --h3-space-mono-line-height: 120%;
+  --h3-work-sans-font-family: "WorkSans-SemiBold", Helvetica;
+  --h3-work-sans-font-size: 38px;
+  --h3-work-sans-font-style: normal;
+  --h3-work-sans-font-weight: 600;
+  --h3-work-sans-letter-spacing: 0px;
+  --h3-work-sans-line-height: 120%;
+  --h4-space-mono-font-family: "SpaceMono-Bold", Helvetica;
+  --h4-space-mono-font-size: 28px;
+  --h4-space-mono-font-style: normal;
+  --h4-space-mono-font-weight: 700;
+  --h4-space-mono-letter-spacing: 0px;
+  --h4-space-mono-line-height: 140.0%;
+  --h4-work-sans-font-family: "WorkSans-SemiBold", Helvetica;
+  --h4-work-sans-font-size: 28px;
+  --h4-work-sans-font-style: normal;
+  --h4-work-sans-font-weight: 600;
+  --h4-work-sans-letter-spacing: 0px;
+  --h4-work-sans-line-height: 140.0%;
+  --h5-space-mono-font-family: "SpaceMono-Bold", Helvetica;
+  --h5-space-mono-font-size: 22px;
+  --h5-space-mono-font-style: normal;
+  --h5-space-mono-font-weight: 700;
+  --h5-space-mono-letter-spacing: 0px;
+  --h5-space-mono-line-height: 160.0%;
+  --h5-work-sans-font-family: "WorkSans-SemiBold", Helvetica;
+  --h5-work-sans-font-size: 22px;
+  --h5-work-sans-font-style: normal;
+  --h5-work-sans-font-weight: 600;
+  --h5-work-sans-letter-spacing: 0px;
+  --h5-work-sans-line-height: 140.0%;
+  --red-accent: #ff7262;
+  --text: #fff;
+  --white: #fff;
+}
+
+.button {
+  all: unset;
+  box-sizing: border-box;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 50px;
+  transition: all .3s;
+  display: inline-flex;
+  position: relative;
+}
+
+.button .text-wrapper {
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.button .rocket-launch {
+  width: 20px !important;
+  height: 20px !important;
+  position: relative !important;
+}
+
+.button.primary-filled {
+  background-color: var(--call-to-action);
+  height: 72px;
+}
+
+.button.tertiary-filled {
+  background-color: var(--call-to-action);
+  height: 46px;
+}
+
+.button.tertiary-outlined {
+  border: 2px solid;
+  border-color: var(--call-to-action);
+  height: 46px;
+}
+
+.button.secondary-outlined {
+  border: 2px solid;
+  border-color: var(--call-to-action);
+  height: 60px;
+}
+
+.button.primary-outlined {
+  border: 2px solid;
+  border-color: var(--call-to-action);
+  height: 72px;
+}
+
+.button.secondary-filled {
+  background-color: var(--call-to-action);
+  height: 60px;
+}
+
+.button.primary-filled .text-wrapper {
+  font-family: var(--h5-work-sans-font-family);
+  font-size: var(--h5-work-sans-font-size);
+  font-style: var(--h5-work-sans-font-style);
+  font-weight: var(--h5-work-sans-font-weight);
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+}
+
+.button.tertiary-filled .text-wrapper, .button.tertiary-outlined .text-wrapper, .button.secondary-outlined .text-wrapper {
+  letter-spacing: 0;
+  font-family: Work Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+.button.primary-outlined .text-wrapper {
+  font-family: var(--h5-work-sans-font-family);
+  font-size: var(--h5-work-sans-font-size);
+  font-style: var(--h5-work-sans-font-style);
+  font-weight: var(--h5-work-sans-font-weight);
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+}
+
+.button.secondary-filled .text-wrapper {
+  letter-spacing: 0;
+  font-family: Work Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+.cover-profile-image {
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  display: flex;
+  position: relative;
+}
+
+.cover-profile-image .image-placeholder {
+  object-fit: cover;
+  align-self: stretch;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.cover-profile-image .profile-image {
+  flex: none;
+  justify-content: center;
+  align-items: flex-start;
+  width: 375px;
+  margin-top: -70px;
+  display: flex;
+  position: relative;
+}
+
+.cover-profile-image .avatar {
+  flex: none;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  transition: all .3s;
+  position: relative;
+}
+
+.NFT-card {
+  background: linear-gradient(#0f1233 0%, #0e1025 100%);
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 315px;
+  height: 402px;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+}
+
+.NFT-card .image {
+  border-radius: 20px 20px 0 0;
+  flex-direction: column;
+  flex: none;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.NFT-card .img {
+  object-fit: cover;
+  align-self: stretch;
+  width: 100%;
+  height: 201px;
+  position: relative;
+}
+
+.NFT-card .NFT-info {
+  align-self: stretch;
+  width: 100%;
+  height: 201px;
+  position: relative;
+}
+
+.NFT-card .NFT-name {
+  color: var(--white);
+  font-family: var(--h5-work-sans-font-family);
+  font-size: var(--h5-work-sans-font-size);
+  font-style: var(--h5-work-sans-font-style);
+  font-weight: var(--h5-work-sans-font-weight);
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+  text-align: center;
+  width: 198px;
+  position: absolute;
+  top: 18px;
+  left: 59px;
+}
+
+.NFT-card .use-button {
+  background: linear-gradient(#e7d10e 0%, #df6e1d 100%) !important;
+  background-color: unset !important;
+  width: 135px !important;
+  height: 41px !important;
+  display: flex !important;
+  position: absolute !important;
+  top: 67px !important;
+  left: 91px !important;
+}
+
+.NFT-card .button-instance {
+  font-family: var(--button-text-font-family) !important;
+  font-size: var(--button-text-font-size) !important;
+  font-style: var(--button-text-font-style) !important;
+  font-weight: var(--button-text-font-weight) !important;
+  letter-spacing: var(--button-text-letter-spacing) !important;
+  line-height: var(--button-text-line-height) !important;
+  margin-left: -.5px !important;
+  margin-right: -.5px !important;
+}
+
+.NFT-card .additional-info {
+  align-items: flex-start;
+  width: 198px;
+  display: flex;
+  position: absolute;
+  top: 142px;
+  left: 20px;
+}
+
+.NFT-card .price {
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 21px 0 0;
+  display: flex;
+  position: relative;
+}
+
+.NFT-card .div {
+  color: #858584;
+  font-family: var(--caption-space-mono-font-family);
+  font-size: var(--caption-space-mono-font-size);
+  font-style: var(--caption-space-mono-font-style);
+  font-weight: var(--caption-space-mono-font-weight);
+  letter-spacing: var(--caption-space-mono-letter-spacing);
+  line-height: var(--caption-space-mono-line-height);
+  white-space: nowrap;
+  flex: 1;
+  align-self: stretch;
+  margin-top: -1px;
+  position: relative;
+}
+
+.NFT-card .element-ETH {
+  color: var(--white);
+  font-family: var(--caption-space-mono-font-family);
+  font-size: var(--caption-space-mono-font-size);
+  font-style: var(--caption-space-mono-font-style);
+  font-weight: var(--caption-space-mono-font-weight);
+  letter-spacing: var(--caption-space-mono-letter-spacing);
+  line-height: var(--caption-space-mono-line-height);
+  white-space: nowrap;
+  flex: 1;
+  align-self: stretch;
+  position: relative;
+}
+
+.items-owned-used {
+  background: #fff linear-gradient(#0f1233 0%, #0e1025 100%);
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .cover-profile-image-instance {
+  flex: none !important;
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.items-owned-used .artist-info {
+  background: linear-gradient(#0f1233 0%, #0e1025 100%);
+  flex-direction: column;
+  flex: none;
+  align-self: stretch;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .div-2 {
+  flex-direction: column;
+  flex: none;
+  align-items: flex-start;
+  gap: 30px;
+  width: 315px;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .artist-name {
+  color: var(--white);
+  font-family: var(--h4-work-sans-font-family);
+  font-size: var(--h4-work-sans-font-size);
+  font-style: var(--h4-work-sans-font-style);
+  font-weight: var(--h4-work-sans-font-weight);
+  letter-spacing: var(--h4-work-sans-letter-spacing);
+  line-height: var(--h4-work-sans-line-height);
+  align-self: stretch;
+  margin-top: -1px;
+  position: relative;
+}
+
+.items-owned-used .CT-as {
+  flex-direction: column;
+  flex: none;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .wallet-button {
+  background: linear-gradient(#e7d10e 0%, #df6e1d 100%) !important;
+  background-color: unset !important;
+  align-self: stretch !important;
+  width: 100% !important;
+  display: flex !important;
+}
+
+.items-owned-used .copy {
+  width: 20px !important;
+  height: 20px !important;
+  position: relative !important;
+}
+
+.items-owned-used .tab-bar {
+  background: linear-gradient(#0f1233 0%, #0e1025 100%);
+  flex-direction: column;
+  flex: none;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .line {
+  object-fit: cover;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.items-owned-used .frame {
+  flex: none;
+  align-items: flex-start;
+  width: 315px;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .tabs {
+  flex: 1;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .tab {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 60px;
+  padding: 0 10px;
+  display: flex;
+  position: relative;
+}
+
+.items-owned-used .created {
+  color: var(--text);
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Work Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  position: relative;
+}
+
+.items-owned-used .created-2 {
+  color: var(--caption-label-text);
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Work Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  position: relative;
+}
+
+.items-owned-used .NFT-cards-section {
+  background-color: var(--background-secondary);
+  flex-direction: column;
+  flex: none;
+  align-self: stretch;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  position: relative;
+}
+
+/*# sourceMappingURL=index.7e392595.css.map */
