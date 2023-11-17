@@ -24,10 +24,17 @@
   width: 375px;
 }
 
-.cover-profile-image .avatar {
-  flex: 0 0 auto;
-  margin-bottom: -2px;
-  margin-top: -2px;
-  position: relative;
-  transition: all 0.3s ease;
+.cover-profile-image .avatar-instance {
+  border: 2px solid !important;
+  border-color: var(--background) !important;
+  border-radius: 20px !important;
+  flex: 0 0 auto !important;
+  margin-bottom: -2px !important;
+  margin-top: -2px !important;
+  transition: all 0.3s ease !important;
+}
+
+.cover-profile-image .design-component-instance-node {
+  background-image: url(../../../static/img/avatar-placeholder.png) !important;
+  position: relative !important;
 }

@@ -1,0 +1,1 @@
+export { PropertyMediumWrapper } from "./PropertyMediumWrapper";

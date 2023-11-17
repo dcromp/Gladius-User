@@ -1,0 +1,7 @@
+.avatar {
+  background-image: url(../../img/avatar-placeholder-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}

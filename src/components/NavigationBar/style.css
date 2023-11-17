@@ -1,0 +1,201 @@
+.navigation-bar {
+  align-items: center;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 375px;
+}
+
+.navigation-bar .navigation-menu-home {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bar .frame {
+  align-items: center;
+  background-color: #613eea;
+  border: 1px solid;
+  border-color: #0b4af5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 52px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 52px;
+}
+
+.navigation-bar .home-1 {
+  height: 19px !important;
+  position: relative !important;
+  width: 19px !important;
+}
+
+.navigation-bar .home-linear {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.navigation-bar .navigation-menu {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bar .instance-node {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.navigation-bar .div {
+  align-items: center;
+  background-color: #613eea;
+  border: 1px solid;
+  border-color: #0b4af5;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.navigation-bar .navigation-menu-2 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bar .navigation-menu-3 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bar .status-marketplace {
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-home {
+  align-items: center;
+  border-radius: 71px;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  padding: 18px 28.5px;
+}
+
+.navigation-bar .status-wallet {
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-profile {
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-0-marketplace {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-0-home {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -15.33px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-0-wallet {
+  align-items: center;
+  border-radius: 71px;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  margin-left: -12.67px;
+  padding: 18px 28.5px;
+}
+
+.navigation-bar .status-0-profile {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-1-marketplace {
+  align-items: center;
+  border-radius: 71px;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  margin-left: -12.67px;
+  padding: 18px 28.5px;
+}
+
+.navigation-bar .status-1-home {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -15.33px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-1-wallet {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-1-profile {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-2-marketplace {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-2-home {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -15.33px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-2-wallet {
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: -12.67px;
+  padding: 25.5px 36px;
+}
+
+.navigation-bar .status-2-profile {
+  align-items: center;
+  border-radius: 71px;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  margin-left: -12.67px;
+  padding: 18px 28.5px;
+}

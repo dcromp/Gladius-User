@@ -1,4 +1,5 @@
 import { CoverProfileImage } from ".";
+import AvatarPlaceholder from "./img/avatar-placeholder.png";
 
 export default {
   title: "Components/CoverProfileImage",
@@ -8,6 +9,7 @@ export default {
 export const Default = {
   args: {
     className: {},
-    avatar: "/img/avatar-1.svg",
+    imagePlaceholderClassName: {},
+    imagePlaceholder: AvatarPlaceholder,
   },
 };
