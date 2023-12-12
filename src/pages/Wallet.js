@@ -252,7 +252,7 @@ const WalletRoot = styled.div`
   text-align: center;
   font-size: var(--h5-work-sans-size);
   color: var(--text);
-  font-family: var(--h5-work-sans);
+  font-family: var(--basebody-work-sans);
 `;
 
 const Wallet = () => {

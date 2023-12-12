@@ -126,7 +126,7 @@ const ArtistCard = styled.div`
   text-align: left;
   font-size: var(--text-large-size);
   color: var(--text);
-  font-family: var(--h5-work-sans);
+  font-family: var(--basebody-work-sans);
 `;
 const RankArtist1 = styled.div`
   width: 310px;
@@ -248,7 +248,7 @@ const HeadlineSubhead = styled.div`
   text-align: left;
   font-size: var(--h4-work-sans-size);
   color: var(--text);
-  font-family: var(--h5-work-sans);
+  font-family: var(--basebody-work-sans);
 `;
 const LeaderBoardRoot = styled.div`
   position: relative;

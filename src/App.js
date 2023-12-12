@@ -6,9 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import CalendarView from "./pages/CalendarView";
-import Wallet from "./pages/Wallet";
-import LeaderBoard from "./pages/LeaderBoard";
 import Marketplace from "./pages/Marketplace";
+import LeaderBoard from "./pages/LeaderBoard";
+import Wallet from "./pages/Wallet";
 
 function App() {
   const action = useNavigationType();
@@ -30,7 +30,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/wallet":
+      case "/marketplace":
         title = "";
         metaDescription = "";
         break;
@@ -38,7 +38,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/marketplace":
+      case "/wallet":
         title = "";
         metaDescription = "";
         break;
@@ -61,9 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<CalendarView />} />
-      <Route path="/wallet" element={<Wallet />} />
-      <Route path="/leader-board" element={<LeaderBoard />} />
       <Route path="/marketplace" element={<Marketplace />} />
+      <Route path="/leader-board" element={<LeaderBoard />} />
+      <Route path="/wallet" element={<Wallet />} />
     </Routes>
   );
 }

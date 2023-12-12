@@ -15,7 +15,7 @@ const InstanceChild = styled.div`
   background: linear-gradient(180deg, #2b2b2b, #0e1025);
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.04);
 `;
-const IconlyboldarrowDown3 = styled.img`
+const IconlyboldarrowDown3 = styled.div`
   position: absolute;
   height: 38.1%;
   width: 7.25%;
@@ -23,9 +23,7 @@ const IconlyboldarrowDown3 = styled.img`
   right: 4.83%;
   bottom: 31.75%;
   left: 87.92%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  display: none;
 `;
 const May2022 = styled.div`
   position: absolute;
@@ -51,23 +49,35 @@ const VuesaxbulkcalendarIcon = styled.img`
   max-height: 100%;
 `;
 const RectangleParent = styled.div`
-  position: absolute;
-  top: 161px;
-  left: calc(50% - 170px);
+  position: relative;
   width: 331px;
   height: 63px;
-  font-size: var(--lexend-deca-semi-bold-14-size);
+`;
+const Contents = styled.ol`
+  margin: 0;
+  position: absolute;
+  top: 285px;
+  left: calc(50% - 187.5px);
+  width: 375px;
+  height: 527px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 13px 22px;
+  box-sizing: border-box;
 `;
 const Description = styled.div`
   position: absolute;
-  top: 112px;
-  left: calc(50% - 167px);
+  top: 225px;
+  left: calc(50% - 174.5px);
+  font-size: var(--font-size-4xs);
 `;
 const AdultsGroupOf = styled.div`
   position: absolute;
-  top: 135px;
-  left: calc(50% - 167px);
-  font-size: 11px;
+  top: 111px;
+  left: calc(50% - 162.5px);
 `;
 const FrameChild = styled.div`
   position: absolute;
@@ -114,19 +124,20 @@ const IconlyboldarrowDown31 = styled.img`
 `;
 const Frame = styled.div`
   position: absolute;
-  top: 24px;
-  left: calc(50% - 170px);
+  top: 0px;
+  left: calc(50% - 165.5px);
   width: 331px;
   height: 63px;
   overflow: hidden;
+  font-size: var(--font-size-4xs);
 `;
-const Contents = styled.div`
+const AdultsGroupOfGladiusClubParent = styled.div`
   position: absolute;
-  top: 127px;
-  left: calc(50% - 187.5px);
-  width: 376px;
-  height: 685px;
-  overflow: hidden;
+  top: 137px;
+  left: calc(50% - 177.5px);
+  width: 331px;
+  height: 125px;
+  font-size: 11px;
 `;
 const GladiusLevel1 = styled.div`
   align-self: stretch;
@@ -192,7 +203,7 @@ const HeadlineSubhead = styled.div`
   box-sizing: border-box;
   gap: var(--gap-3xs);
   font-size: var(--h4-work-sans-size);
-  font-family: var(--h5-work-sans);
+  font-family: var(--basebody-work-sans);
 `;
 const CalendarViewRoot = styled.div`
   position: relative;
@@ -201,7 +212,7 @@ const CalendarViewRoot = styled.div`
   height: 812px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-4xs);
+  font-size: var(--lexend-deca-semi-bold-14-size);
   color: var(--text);
   font-family: var(--lexend-deca-semi-bold-14);
 `;
@@ -223,12 +234,14 @@ const CalendarView = () => {
         <Contents>
           <RectangleParent>
             <InstanceChild />
-            <IconlyboldarrowDown3 alt="" src="/iconlyboldarrow--down-3.svg" />
+            <IconlyboldarrowDown3 />
             <May2022>01 May, 2022</May2022>
             <StartDate>Start Date</StartDate>
             <VuesaxbulkcalendarIcon alt="" src="/vuesaxbulkcalendar.svg" />
           </RectangleParent>
-          <Description>Description</Description>
+        </Contents>
+        <Description>Description</Description>
+        <AdultsGroupOfGladiusClubParent>
           <AdultsGroupOf>Adults group of Gladius Club</AdultsGroupOf>
           <Frame>
             <FrameChild />
@@ -239,7 +252,7 @@ const CalendarView = () => {
             </GroupParent>
             <IconlyboldarrowDown31 alt="" src="/iconlyboldarrow--down-31.svg" />
           </Frame>
-        </Contents>
+        </AdultsGroupOfGladiusClubParent>
         <HeadlineSubhead>
           <Contents1>
             <GladiusLevel1>Calendar</GladiusLevel1>
